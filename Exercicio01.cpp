@@ -20,8 +20,10 @@ int main()
     int A = b * h;
     int P = 2 * (b + h);
 
-    std::cout << A << '\n';
-    std::cout << P << '\n';
+    std::cout << "Dados os valores b = " << b
+              << " e h = " << h
+              << ", a área do retângulo é " << A << " cm\u00B2"
+              << " e o perímetro é " << P << " cm\n";
 
     return 0;
 }
