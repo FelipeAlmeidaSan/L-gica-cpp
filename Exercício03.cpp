@@ -12,11 +12,13 @@ int main()
 
     const double pi = 3.1415;
 
-        int A = pi * raio * raio;
-    cout << "O valor da área dado o raio " << raio << " é de: " << A << '\n';
-
+    double A = pi * raio * raio;
     double P = 2.0 * pi * raio;
-    cout << "O valor do perímetro é igual à " << P << '\n';
 
-    return 0;
+    cout << fixed << setprecision(2);
+    cout << "Para o raio = " << raio
+         << " , a área é " << A << " cm\u00B2"
+         << " e o perímetro (circunferência) é " << P << "cm\n";
+
+        return 0;
 }
